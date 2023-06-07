@@ -1,0 +1,45 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",// 配置名称，将会在启动配置的下拉菜单中显示
+            "type": "cppdbg",// 配置类型，这里只能为cppdbg
+            "request": "launch",// 请求配置类型，可以为launch（启动）或attach（附加）
+            "program": "${workspaceRoot}/hdiffz",// 将要进行调试的程序的路径
+            "args": [
+            "-m",
+            // "-c-zstd",
+            "/home/jbw/huawei_1000/C100047849/7.2.0/com.alibaba.ailabs.tg.2209091136.apk",
+            "/home/jbw/huawei_1000/C100047849/7.3.1/com.alibaba.ailabs.tg.2210101617.apk",
+            // "/home/jbw/ota/old.txt",
+            // "/home/jbw/ota/new.txt",
+            "./test.diff"
+            ],
+            "stopAtEntry": true, // 设为true时程序将暂停在程序入口处
+            "cwd": "${workspaceRoot}",// 调试程序时的工作目录
+            "environment": [],// （环境变量？）
+            "preLaunchTask": "build",
+            "externalConsole": false,// 调试时是否显示控制台窗口，vscode自带控制台
+            "MIMode": "gdb",// 指定连接的调试器，可以为gdb或lldb。
+        }
+        // {
+        //     "name": "(gdb) Launch",// 配置名称，将会在启动配置的下拉菜单中显示
+        //     "type": "cppdbg",// 配置类型，这里只能为cppdbg
+        //     "request": "launch",// 请求配置类型，可以为launch（启动）或attach（附加）
+        //     "program": "${workspaceRoot}/hpatchz",// 将要进行调试的程序的路径
+        //     "args": [
+        //     "/home/jbw/huawei_1000/C100047849/7.2.0/com.alibaba.ailabs.tg.2209091136.apk",
+        //     "./test.diff",
+        //     "./newfile"],
+        //     "stopAtEntry": true, // 设为true时程序将暂停在程序入口处，我一般设置为true
+        //     "cwd": "${workspaceRoot}",// 调试程序时的工作目录
+        //     "environment": [],// （环境变量？）
+        //     "preLaunchTask": "build",
+        //     "externalConsole": false,// 调试时是否显示控制台窗口，vscode自带控制台
+        //     "MIMode": "gdb",// 指定连接的调试器，可以为gdb或lldb。
+        // }
+    ]
+}
