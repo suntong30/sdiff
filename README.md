@@ -17,5 +17,12 @@ To help you quickly navigate and have the ability to understand the different pi
 > $ pip install -U memory_profiler
 ---
 ### Paper Structure to Folder Structure
+To do
 
+### TODOs
+- Figure 3
+- Figure 4
+- Figure 6
+- Figure 7
+- Figure 8
 
