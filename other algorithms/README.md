@@ -2,6 +2,8 @@
 
 In this folder, we provides existing state-of-the-art algorithms on which we conduct measurements.
 
+If your folders are empty, please use `git submodule` to download these algorithms.
+
 ## xdelta3
 The implementation of xdelta3 algorithm is in [xdelta3](./xdelta-gpl/xdelta3/) folder.
 
@@ -18,6 +20,6 @@ The implementation of archive-patcher algorithm is in [archive-patcher](./archiv
 Until June 1, 2023, archive-patcher is still deployed in Google Play.
 
 ## HDiffPatch
-The implementation of HDiffPatch algorithm is in [HDiffPatch](./HDiffPatch), and its dependencies are in [HDiffPatch dependency](./HDiffPatch_makefile_dependency)
+The implementation of HDiffPatch algorithm is in [HDiffPatch](./HDiffPatch).
 
 Until June 1, 2023, HDiffPatch is still deployed in OPPO App market.
