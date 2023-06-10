@@ -1,0 +1,12 @@
+[submodule "other algorithms/HDiffPatch"]
+	path = other algorithms/HDiffPatch
+	url = https://github.com/sisong/HDiffPatch/tree/v4.4.0
+[submodule "other algorithms/bsdiff"]
+	path = other algorithms/bsdiff
+	url = https://github.com/mendsley/bsdiff/tree/v4.3
+[submodule "other algorithms/xdelta-gpl"]
+	path = other algorithms/xdelta-gpl
+	url = https://github.com/jmacd/xdelta-gpl/tree/v3.1.0
+[submodule "other algorithms/archive-patcher"]
+	path = other algorithms/archive-patcher
+	url = https://github.com/google/archive-patcher/tree/v1.1
