@@ -20,7 +20,6 @@ To help you quickly navigate and have the ability to understand the different pi
 To do
 
 ### TODOs
-- Figure 4
 - Figure 6
 - Figure 7
 - Figure 8
