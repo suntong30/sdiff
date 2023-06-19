@@ -1,7 +1,7 @@
 # Understanding Differencing Algorithms for Mobile Application Updates
 In this repository, we release the dataset and tools in our measurement paper. We also open-source our novel algorithm, **sdiff**.
 
-To help you quickly navigate and have the ability to understand the different pieces, we have created different folders for different experiments. There are README files within each folder that provide instructions on validating the experiment-specific artifacts. At the very top of the README instructions, we also specify which results/plots (e.g. Figure 2 in the paper) the folder is responsible. Lastly, to make it easy here are some generic principles we followed for releasing the artifacts:
+To help you quickly navigate and have the ability to understand the different pieces, we have created different folders for different experiments. At the very top of the README instructions, specify which results/plots (e.g. Figure 2 in the paper) the folder is responsible. Lastly, to make it easy here are some generic principles we followed for releasing the artifacts:
 
 #### Dataset
 - If the dataset is small enough, we included the dataset file in this repository itself.
@@ -21,5 +21,4 @@ To do
 
 ### TODOs
 - Figure 7
-- Figure 8
 
