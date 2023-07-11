@@ -27,9 +27,9 @@ java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGen
 - thead_num:The number of threads used for the restore process
 
 ```
-java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGenerator old.apk diff_file_compressed patch.apk patch_program_path patch_program_parameter deCompress_program_path deCompress_program_parameter thead_num
+java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchApplier old.apk diff_file_compressed patch.apk patch_program_path patch_program_parameter deCompress_program_path deCompress_program_parameter thead_num
 //example
-//java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGenerator old.apk diff_file_compressed patch.apk ./hpatchz " -f " ./zstd " -k -d " 1 
+//java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchApplier old.apk diff_file_compressed patch.apk ./hpatchz "-f" ./zstd "-k -d -f" 1 
 ```
 
 ## run script
