@@ -15,7 +15,7 @@ sdiff is desgined for archive formats. Now it supports APK and zip files.
 ```shell
 java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGenerator old.apk new.apk diff_file diff_program_path diff_program_parameter secondCompress_program_path secondCompress_program_parameter
 //example
-//java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGenerator old.apk new.apk diff_file ./hdiffz " -f -d " ./zstd " --ultra - 21 "
+//java -classpath .:jna-5.12.1.jar com.google.archivepatcher.sample.SamplePatchGenerator old.apk new.apk diff_file ./hdiffz " -f -d " ./zstd " --ultra -21 "
 ```
 
 ## patch
