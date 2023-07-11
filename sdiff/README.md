@@ -4,7 +4,7 @@
 
 - diff_program_path:The path to the program that actually executes the difference calculation 
 - diff_program_parameter:parameters passed to the program
-- secondCompress_program_path:Path to a program that performs secondary compression on diff file
+- secondCompress_program_path:Path to a program that performs secondary compression on diff file (We can use the ELF from [other algorithms](../other%20algorithms/), i.e., `hdiffz` for HDiffPatch and `bsdiff` for BSDIFF )
 - secondCompress_program_parameter:parameters passed to the program
 
 ```shell
@@ -17,7 +17,7 @@ java -classpath .:jna-5.12.1.jar com.goole.archivepatcher.sample.SamplePatchGene
 
 - patch_program_path:The path to the program that actually performs the patch restore
 - patch_program_parameter:parameters passed to the program
-- deCompress_program_path:Path to the program to perform decompression on diff file
+- deCompress_program_path:Path to the program to perform decompression on diff file (We can use the ELF from [other algorithms](../other%20algorithms/), i.e., `hpatchz` for HDiffPatch and `bspatch` for BSDIFF )
 - deCompress_program_parameter:parameters passed to the program
 - thead_num:The number of threads used for the restore process
 
