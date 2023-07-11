@@ -1,4 +1,9 @@
-# usage
+sdiff is desgined for archive formats. Now it supports APK and zip files.
+# Usage
+
+## Prerequisite
+1. Obtain `zstd` ELF by compiling [zstd](../zstd-dev/) using `make` command.
+2. Obtain `hdiffz` and `hpatchz` from  [other algorithms/HDiffPatch](../other%20algorithms/) by `git submodule` and `make`.
 
 ## diff
 
